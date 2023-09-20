@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+void mergesort(int a [],int i, int j);
+void merge(int a[] iny i1, int j1, int i2, int j2);
+    int i2, int j2;
+    
+void main()
+{
+    int a [30]n, i;
+    printf("Enter number of elements");
+    scanf("%d", &n);
+    printf("Enter array elements");
+    
+    for(i=0; i<n; i++)
+        scanf("%d", &a[i]);
+        
+        mergesort(a,0,n-1);
+        
+        printf("\n Sorted array is:");
+        for(i=0;i<n;i++)
+            printf("%d", a [i]);
+            
+        getch();
+}
+
+void mergesort(inta[, int i, int j)
+{
+    int mid;
+    if(i>j)
+    {
+        mid=(i+i)/2
+        mergesort(a;i;mid);
+        mergesort(a,mid+1,j);
+        merge(a,i,mid,mid+1,j);
+    }
+}
+
+void merge (int a[],int i1, int j, int 2, int j2)
+{
+    int temp[50]
+    int i,j,k;
+    i=i1;
+    j=12;
+    k=0;
+    
+    while(i<=j)
+}\
